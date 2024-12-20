@@ -1,0 +1,8 @@
+const network_name = "LAN";
+const devices = ["Router", "Switch", "PC"];
+
+// Описание сети
+table(
+    name => |network_name|,
+    devices => |devices|
+)

@@ -1,0 +1,11 @@
+const db_name = "main_db";
+const max_connections = 100;
+
+// Описание базы данных
+table(
+    name => |db_name|,
+    settings => table(
+        connections => |max_connections|,
+        timeout => 30
+    )
+)

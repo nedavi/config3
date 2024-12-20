@@ -1,0 +1,9 @@
+[
+    {
+        "name": "main_db",
+        "settings": {
+            "connections": 100,
+            "timeout": 30
+        }
+    }
+]
